@@ -1,10 +1,10 @@
 const Home = () => {
   return (
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 font-mono">
+    <div className="flex min-h-full flex-1 flex-col justify-center my-52 px-6 py-12 lg:px-8 font-mono">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         
-        <h2 className="mt-10 text-center text-6xl font-bold leading-9 tracking-tight text-gray-900">
-          Sign in
+        <h2 className="mt-10 text-center text-6xl font-bold leading-9 tracking-tight text-gray-900 my-12">
+          Login
         </h2>
       </div>
 
