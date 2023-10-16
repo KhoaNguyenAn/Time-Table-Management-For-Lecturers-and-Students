@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import SignIn from './pages/Home';
 
 // pages & components
-import Home from './pages/Home'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
           <Routes>
             <Route 
               path="/"
-              element={<Home />}
+              element={<SignIn />}
             />
 
           </Routes>
