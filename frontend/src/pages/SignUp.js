@@ -1,7 +1,7 @@
 import { auth } from "../firebase-handler";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link for navigation
+import { Link } from "react-router-dom"; 
 
 const SignUp = () => {
   const [email, setEmail] = useState("");
@@ -13,9 +13,7 @@ const SignUp = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log("User signed up:", userCredential.user);
-        // You can add additional code here, e.g., navigate to a new page after sign-up.
-        // For example, you can use React Router to navigate:
-        // history.push("/dashboard");
+
       })
       .catch((error) => {
         console.error("Sign-up error:", error);
