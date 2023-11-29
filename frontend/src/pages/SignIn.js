@@ -90,7 +90,7 @@ const SignIn = () => {
           <div className="flex items-center justify-center">
             <div className="text-sm">
               <a
-                href="#"
+                href='localhost:3000/signup'
                 className="font-semibold text-gray-900 hover:text-neutral-500 underline"
               >
                 Create account?
