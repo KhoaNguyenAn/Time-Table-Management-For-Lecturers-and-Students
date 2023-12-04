@@ -1,5 +1,6 @@
 const Select = () => {
     return (
+<<<<<<< HEAD
         <div>
         <nav
   class="relative flex w-full flex-wrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4"
@@ -372,6 +373,8 @@ const Select = () => {
 
 
 
+=======
+>>>>>>> c0d847e44ea815c96d299da1045d60ac38c214b8
         <div class="overflow-auto h-72 relative max-w-sm mx-auto bg-white dark:bg-slate-800 dark:highlight-white/5 shadow-lg ring-1 ring-black/5 rounded-xl flex flex-col divide-y dark:divide-slate-200/5">
             <div class="flex items-center gap-4 p-4">
                 <div class="flex flex-col">
@@ -398,7 +401,10 @@ const Select = () => {
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         </div>
+=======
+>>>>>>> c0d847e44ea815c96d299da1045d60ac38c214b8
     );
 };
 
